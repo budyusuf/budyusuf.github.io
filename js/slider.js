@@ -9,7 +9,7 @@
         var settings = $.extend({
             slideShow : true,
             startOn : 0,
-            speed : 3500,
+            speed : 6000,
             transition : 400,
             arrows : true
         }, options);
