@@ -25,7 +25,7 @@ body {
     background-color: #d5dce2;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
     color: #007a7c;
 }
@@ -87,5 +87,8 @@ li.dropdown {
     display: none;
 }
 
-
+.service_descr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 

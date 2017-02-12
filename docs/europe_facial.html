@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Lotus Blossom </title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown();
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+        
+        <br/>
+        
+        <h3 style="text-align:left; margin-left:5%;">European Facial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 hour&nbsp;&nbsp;-&nbsp;&nbsp;$85</h3>
+    
+        <p class="service_descr">
+        Our European Facial starts with a deep pore cleansing, exfoliation and extractions. Relax and feel pampered with a customized neck and shoulder massage, followed by a therapeutic mask and moisturizer to soothe, protect and balance your skin. An excellent service for all skin types and an ideal monthly regimen to maintain healthy skin. 
+        </p>
+
+    </body>
+
+</html>
