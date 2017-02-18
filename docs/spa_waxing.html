@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Lotus Blossom </title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown();
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+
+        <br/>
+
+
+        <table class="price_list">
+            <tr>
+                <th>Service</th>
+                <th>Price</th> 
+            </tr>
+            <tr>
+                <td>Eye Brow</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Lip</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Eye Brow &amp; Lip</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Chin</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Cheek</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Sideburns</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Full Face</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>Chest</td>
+                <td>$45 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Underarm</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Half Arm</td>
+                <td>$35 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Full Arm</td>
+                <td>$45 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Stomach</td>
+                <td>$25 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Half Leg</td>
+                <td>$35 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Full Leg</td>
+                <td>$65 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Back</td>
+                <td>$60 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Lower Back</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Bikini Area</td>
+                <td>$35 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Upper Thigh</td>
+                <td>$25 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Bikini &amp; Upper Thigh</td>
+                <td>$45 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Brazilian</td>
+                <td>$65 &amp; up</td>
+            </tr>
+            <tr>
+                <td>Brazilian &amp; Stomach</td>
+                <td>$70 &amp; up</td>
+            </tr>
+        </table>
+
+
+
+
+    </body>
+
+</html>

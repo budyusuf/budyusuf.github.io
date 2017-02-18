@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Lotus Blossom </title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown();
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+
+        <br/>
+
+
+        <table class="price_list" style="width: 700px;">
+            <tr>
+                <th>Microdermabrasion </th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Microdermabrasion with facial</td>
+                <td>1 hour</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Mini Microdermabrasion treatment only (without facial services)</td>
+                <td>30 min</td>
+                <td>$60</td>
+            </tr>
+            
+        </table>
+        
+        <br/> <br/>
+        
+        <table class="price_list" style="width: 700px;">
+            <tr>
+                <th>LED Treatments (Light Emitting Diode Skin Phototherapy)</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Anti-Aging LED Therapy (Stand Alone treatment)</td>
+                <td>30 min</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Rejuvenating Facial</td>
+                <td>1 hour</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>Problem Skin LED Therapy (Stand Alone treatment)</td>
+                <td>30 min</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Detox Facial</td>
+                <td>1 hour</td>
+                <td>$85</td>
+            </tr>
+
+
+        </table>
+
+        
+
+
+    </body>
+
+</html>

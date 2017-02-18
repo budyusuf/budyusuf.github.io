@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Helvetica';
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     background-color: #d5dce2;
 }
 
@@ -91,4 +91,38 @@ li.dropdown {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.price_list
+{
+    margin-left: 10%;
+	width: 280px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.price_list th
+{
+	color: #005759;
+	padding: 10px 8px;
+	border-bottom: 2px solid #007a7c;
+}
+.price_list td
+{
+	border-bottom: 1px solid #01adaf;
+	color: #005759;
+	padding: 6px 8px;
+}
+.price_list tr:hover td
+{
+	background-color: #bfc9d3;
+}
+
+
+
+
+
+
+
+
+
+
 
