@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 #lotus_logo{
     width: 15%;
     height: 15%;
@@ -116,9 +121,21 @@ li.dropdown {
 	background-color: #bfc9d3;
 }
 
+footer{
+    margin-top: 30%;
+    display: block;
+    width: 100%;
+    position: absolute;
+    
+    background-color: #bfc9d3;
+    font-size: 80%;
+}
 
-
-
+footer div{
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
 
 
 
