@@ -43,6 +43,13 @@
         <script src="../js/slider.js"></script>
         <script>jQuery(function($) {$('.slider').sss();});</script>
 
+        <!-- Import a footer -->
+        <script>
+            $(document).ready(function(){
+                $("#bottom").load("fragments/footer.html");
+            });
+        </script>
+        
     </head>
 
     <body>
@@ -66,27 +73,13 @@
             <img src="../images/slideshow/slide_5.jpg" />
         </div>
 
-        
-        <footer>
-        
-            <div>
-                Lotus Blossom <br/> <br/>
-                951 N. Harrison Ave <br/>
-                Cary, 27513 <br/>
-                (919) 377-1707
-                
-            </div>
-            
-            <div>
-                hello <br/>
-                fsaf
-            
-            </div>
-        
+
+        <footer id="bottom">
+
         </footer>
-        
-        
-        
+
+
+
     </body>
 
 </html>

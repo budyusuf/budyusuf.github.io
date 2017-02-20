@@ -129,18 +129,29 @@ footer{
     
     background-color: #bfc9d3;
     font-size: 80%;
+    
+    height: 15%;
+    
 }
 
-footer div{
-    padding-top: 4%;
+footer .footer_content{
     padding-left: 1%;
-    padding-bottom: 2%;
     display: inline-block;
 }
 
+footer .vertical_bar{
+    border-left: 2px solid #007a7c;
+    display: inline-block;
+    
+    height: 80%;
+    
+    margin-left: 3%;
+    
+}
 
-
-
-
+/* Add spacing b/w list items */
+footer li{
+    padding-bottom: 5%;
+}
 
 
