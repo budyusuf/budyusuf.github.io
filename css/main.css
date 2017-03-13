@@ -121,6 +121,34 @@ li.dropdown {
 	background-color: #bfc9d3;
 }
 
+
+/* 
+ * Image grid in products page
+ * Src: https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/
+ */
+.image_grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.product_figure
+{
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% - 4px);
+}
+
+/* Puts images in grid */
+@media screen and (min-width: 50em) {
+  .product_figure {
+    width: calc(25% - 6px);
+  }
+}
+
+/** Our footer */
 footer{
     margin-top: 30%;
     display: block;

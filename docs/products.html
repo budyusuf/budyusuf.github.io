@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Lotus Blossom </title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown();
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+
+        <!-- Import a footer -->
+        <script>
+            $(document).ready(function(){
+                $("#bottom").load("fragments/footer.html");
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+
+        <br/>
+
+        <p class="service_descr">
+            ClarityRx® products represent the perfect synergy of natural plant and food resources (nature’s pharmacy) along with the latest in cosmetic technology to produce clear, beautiful skin the healthy way.
+        </p>
+
+
+
+        <div class="image_grid">
+         
+            <figure class="product_figure">
+                <img src="../images/products/Daily-Fruit-Antioxidant-Moisturizing-Mango-Mask1-247x300.jpg" alt="">
+                <figcaption>Some text here</figcaption>
+            </figure>
+            
+            <figure class="product_figure">
+                <img src="../images/products/Get-Clea-Crushed-Bamboo-Exfoliator-247x300%20(1).jpg" alt="">
+                <figcaption>Some text here</figcaption>
+            </figure>
+            
+            <figure class="product_figure">
+                <img src="../images/products/Healing-Fine-Post-Procedure-Ointment-247x300.jpg" alt="">
+            </figure>
+            
+            <figure class="product_figure">
+                <img src="../images/products/POWER-BRIGHTENING-KIT-back-72-247x300.jpg" alt="">
+            </figure>
+            
+            <figure class="product_figure">
+                <img src="../images/products/Rise-And-Shine-Lifting-Mask1-247x300.jpg" alt="">
+            </figure>
+            
+            <figure class="product_figure">
+                <img src="../images/products/Take-It-Off-Make-up-Remover-247x300.jpg" alt="">
+            </figure>
+
+        </div>
+
+
+
+
+
+
+
+
+        <footer id="bottom">
+
+        </footer>
+
+
+
+    </body>
+
+</html>
