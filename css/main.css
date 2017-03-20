@@ -133,6 +133,9 @@ li.dropdown {
     justify-content: space-between;
 }
 
+.product_caption{
+    text-align: center;
+}
 
 .product_figure
 {
