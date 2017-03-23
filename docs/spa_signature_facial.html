@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Lotus Blossom </title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown('fast');
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+        
+        <!-- Import a footer -->
+        <script>
+            $(document).ready(function(){
+                $("#bottom").load("fragments/footer.html");
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+        
+        <br/>
+        
+        <h3 style="text-align:left; margin-left:5%;">Signature Facial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 hour&nbsp;&nbsp;-&nbsp;&nbsp;$95</h3>
+    
+        <p class="service_descr">
+        Our European Facial is one that is of exceptional quality, but our Signature Facial is designed specifically with you in mind. We begin our services with a deep cleansing of the skin to remove makeup and other impurities. This is then followed up by an exfoliation process which is completed under steam. The steam softens the skin and this allows us to clear away dead dulling skin cells. The service continues with a personalized skin assessment that will allow us to better understand your skin and its needs. The end result will reveal new, gorgeous skin. Monthly treatments are recommended and encouraged. 
+        </p>
+        
+        <br/>
+        
+        <h3 style="text-align:left; margin-left:5%;">Types of Signature Facials:</h3>
+        
+        <ul style="list-style-type:square; margin-left:5%;">
+            <li>Rejuvenative Facial</li>
+            <li>Detox Facial</li>
+            <li>Sensitive Skin Facial</li>
+            <li>Collagen Facial</li>
+            <li>Rosacea Facial</li>
+            <li>Hydrating Facial </li>
+            <li>Pumpkin Facial </li>
+            <li>High Frequency Treatment, Microroller Treatment: This Facial Treatment Is an Add-On Service</li>
+        </ul>
+        
+        <footer id="bottom" style="height: 25%;">
+
+        </footer>
+
+    </body>
+
+</html>
