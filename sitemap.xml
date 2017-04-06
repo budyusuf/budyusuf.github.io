@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/home.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/contact.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_europe_facial.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_signature_facial.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_advanced.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_gentlemen_facial.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_back_facial.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_waxing.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_specialty.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+ 	<url>
+
+      <loc>http://lotusblossomspa.com/docs/spa_series_treat.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+    <url>
+
+      <loc>http://lotusblossomspa.com/docs/products.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+
+
+</urlset> 
