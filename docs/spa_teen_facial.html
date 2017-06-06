@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Teen Facial - Lotus Blossom | Cary, NC</title>
+
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+        <!-- Import top and menu -->
+        <script>
+            $(document).ready(function(){
+                $("#top").load("fragments/top.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#menu_bar").load("fragments/navbar.html");
+            });
+        </script>
+
+        <!-- Slidedown effect -->
+        <script>
+            $(document).ajaxComplete(function(){
+                $(".dropdown").hover(
+                    function(){
+                        $(".dropdown-content").slideDown('fast');
+                    },
+                    function () {
+                        $(".dropdown-content").slideUp('medium');
+                    }
+                );
+            });
+        </script>
+        
+        <!-- Import a footer -->
+        <script>
+            $(document).ready(function(){
+                $("#bottom").load("fragments/footer.html");
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="top">
+
+        </div>
+
+        <h1>Lotus Blossom</h1>
+        <h2 style="font-style: italic;">Skin Therapy For You</h2>
+
+        <div id="menu_bar">
+
+        </div>
+        
+        <br/>
+        
+        <h3 style="text-align:left; margin-left:5%;">Teen Facial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 hour&nbsp;&nbsp;-&nbsp;&nbsp;$65</h3>
+    
+        <p class="service_descr">
+             Developed especially for youthful skin problems. This soothing treatment deep cleans pores, calms redness with our unique combination of antiseptics and anti-inflammatory products while hydrating to balance young skin. Immediate improvement after a single treatment, but for longer-lasting results, we recommend a treatment series side by side in our couple’s room. This relaxing experience is ideally suited for special occasions and perfect for quality time together. 
+        </p>
+        
+        <p class="service_descr" style="font-style: italic; color: #A60000;">
+            For ages 14 and over with parental permission ONLY.
+        </p>
+        
+        <footer id="bottom">
+
+        </footer>
+
+    </body>
+
+</html>
