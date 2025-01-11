@@ -1,7 +1,7 @@
 <ul class="menu">
     <li class="menu_item"><a href="home.html">Home</a></li>
 
-    <li class="dropdown">
+    <li class="dropdown" id="spa_treatments">
         <a class="dropbtn">Spa Treatments</a>
         <div class="dropdown-content">
             <a href="spa_signature_facial.html">Signature Facial</a>
@@ -16,7 +16,6 @@
         </div>
     </li>
     
-    <!--
     <li class="dropdown">
         <a class="dropbtn">Procell&trade;</a>
         <div class="dropdown-content">
@@ -24,7 +23,6 @@
             <a href="spa_advanced.html">Advanced Aesthetics and Exfoliation Treatments</a>
         </div>        
     </li>
-    -->
     
     <li class="menu_item"><a href="products.html">Products</a></li>
 <!--
@@ -39,10 +37,10 @@
     $(document).ajaxComplete(function(){
         $(".dropdown").hover(
             function(){
-                $(".dropdown-content").slideDown('fast');
+                $(this).children(".dropdown-content").slideDown("fast")
             },
             function () {
-                $(".dropdown-content").slideUp('medium');
+                $(this).children(".dropdown-content").slideUp('medium');
             }
         );
     });
