@@ -9,12 +9,23 @@ html {
 }
 
 #fb_logo{
-    width: 10%;
-    height: 10%;
+    float: right;
+    width: 5%;
+    height: 5%;
+}
+
+#insta_logo{
+    float: right;
+    width: 5%;
+    height: 5%;
+}
+
+#top_level_number{
+    float: right;
 }
 
 #contact_info {
-    float: right;
+    display: inline-block;
     font-size: 150%;
     font-weight: 600;
     font-style: italic;
