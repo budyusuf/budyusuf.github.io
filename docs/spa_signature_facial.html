@@ -20,20 +20,6 @@
                 $("#menu_bar").load("fragments/navbar.html");
             });
         </script>
-
-        <!-- Slidedown effect -->
-        <script>
-            $(document).ajaxComplete(function(){
-                $(".dropdown").hover(
-                    function(){
-                        $(".dropdown-content").slideDown('fast');
-                    },
-                    function () {
-                        $(".dropdown-content").slideUp('medium');
-                    }
-                );
-            });
-        </script>
         
         <!-- Import a footer -->
         <script>

@@ -15,7 +15,17 @@
             <a href="spa_series_treat.html">Series of Treatments</a>
         </div>
     </li>
-
+    
+    <!--
+    <li class="dropdown">
+        <a class="dropbtn">Procell&trade;</a>
+        <div class="dropdown-content">
+            <a href="spa_signature_facial.html">Signature Facial</a>
+            <a href="spa_advanced.html">Advanced Aesthetics and Exfoliation Treatments</a>
+        </div>        
+    </li>
+    -->
+    
     <li class="menu_item"><a href="products.html">Products</a></li>
 <!--
     <li class="menu_item"><a href="#about">Beauty Advice</a></li>-->
@@ -23,3 +33,17 @@
 
     <li class="menu_item"><a href="contact.html">Contact Us</a></li>
 </ul>
+
+<!-- Slidedown effect -->
+<script>
+    $(document).ajaxComplete(function(){
+        $(".dropdown").hover(
+            function(){
+                $(".dropdown-content").slideDown('fast');
+            },
+            function () {
+                $(".dropdown-content").slideUp('medium');
+            }
+        );
+    });
+</script>
