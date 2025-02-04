@@ -20,6 +20,14 @@ html {
     height: 5%;
 }
 
+#procell_logo{
+    width: 5%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
 #top_level_number{
     float: right;
 }
